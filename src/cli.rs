@@ -67,10 +67,6 @@ pub fn process_command(tasks: &mut Vec<Task>) {
             let mut cmd = Cli::command();
             let name = cmd.get_name().to_string();
             generate(shell, &mut cmd, name, &mut io::stdout());
-
-            // let out_dir = env::var_os("OUT_DIR").unwrap();
-            // let mut cmd = todo_app::Cli::command();
-            // generate_to(Bash, &mut cmd, "todo_app", Path::new(&out_dir)).unwrap();
         }
     }
 }
