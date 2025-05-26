@@ -1,0 +1,12 @@
+[
+  {
+    "id": 1,
+    "description": "Learn Rust!",
+    "completed": false
+  },
+  {
+    "id": 2,
+    "description": "Finish TODOs!",
+    "completed": false
+  }
+]
